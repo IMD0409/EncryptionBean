@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Encryption-EAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="Encryption-Bean.jar" deploy-path="/" handle="module:/resource/Encryption-Bean/Encryption-Bean">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Encryption-BeanClient.jar" deploy-path="/" handle="module:/resource/Encryption-BeanClient/Encryption-BeanClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Encryption-WebClient.war" deploy-path="/" handle="module:/resource/Encryption-WebClient/Encryption-WebClient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
